@@ -19,4 +19,4 @@
 
 ## 验证边界
 
-唯一待验证项仍为独立CAD软件重开（`independent_cad_app.reopen`）。数字回归和网页查看不替代CAD软件重开、实物试装、打印、强度、射频或防水试验。P2几何验收结论保持。P3修正已关闭；P4公开仓库目标检查、Sol/High暂存与来源许可复核、公开推送和远端CI尚未完成。
+唯一待验证项仍为独立CAD软件重开（`independent_cad_app.reopen`）。数字回归和网页查看不替代CAD软件重开、实物试装、打印、强度、射频或防水试验。P2几何验收结论保持。P3修正已关闭。其后P4已完成Sol/High独立发布前审核，创建公共仓库并推送；首次GitHub Actions已全绿。远端提交和CI记录见GitHub仓库及本地忽略证据 `artifacts/p4/published-verification.json`。

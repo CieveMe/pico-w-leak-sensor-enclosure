@@ -1,6 +1,6 @@
 # Pico W leak sensor enclosure design
 
-Status: P0–P3 digital implementation and browser review are complete. The current baseline has 176 digital checks passed and 1 independent desktop-CAD reopening check unverified. Physical fit, print, strength, RF, alarm, and waterproof tests remain unperformed. P4 clean reproduction and publication preparation are in progress; no public upload has occurred.
+Status: P0–P4 digital implementation, browser review, clean reproduction, and first public release are complete. The current baseline has 176 digital checks passed and 1 independent desktop-CAD reopening check unverified. Python geometry tests, CAD artifact rebuild, and viewer build passed in both the isolated release review and GitHub Actions. Physical fit, print, strength, RF, alarm, and waterproof tests remain unperformed.
 
 ## Purpose
 
