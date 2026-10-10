@@ -1,0 +1,50 @@
+# Python environments and caches
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node build products
+node_modules/
+viewer/node_modules/
+viewer/dist/
+viewer/public/artifacts/
+viewer/public/docs/
+
+# Local runtime and scratch data
+*.log
+.env
+.env.*
+!.env.example
+scratch/
+STATUS.md
+
+# Keep only the baseline deliverable and P3 review evidence public; other generated witnesses stay local.
+/artifacts/*
+!/artifacts/baseline/
+!/artifacts/drawings/
+!/artifacts/p3/
+/artifacts/p2/
+/artifacts/p1/
+/artifacts/p0/
+/artifacts/variants/
+
+# Internal handoff and model-operation notes are maintained locally.
+/docs/implementation-plan.md
+/docs/review-packets/
+/docs/reviews/*
+!/docs/reviews/p3-browser-review.md
+
+# Keep only final P3 browser evidence, not intermediate screenshots.
+/artifacts/p3/*
+!/artifacts/p3/
+/artifacts/p3/*-initial.png
+/artifacts/p3/mobile-390x844.png
+!/artifacts/p3/browser-acceptance.json
+!/artifacts/p3/desktop-final.png
+!/artifacts/p3/mobile-final.png
+
+# P0 one-off coordinate probe page is retained locally, not part of the product viewer.
+/viewer/p0.html
+/viewer/src/p0.js

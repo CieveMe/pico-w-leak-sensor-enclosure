@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "variant": "baseline",
+  "source_revision": "sha256:51ee0d54319a88e871f1ba0fe63c3fc858b7ee4dca68e9fd8133f528b981c6de",
+  "units": "mm",
+  "cad_up_axis": "Z",
+  "glb_units": "m",
+  "up_axis": "Y",
+  "parts": [
+    {
+      "id": "lower_shell",
+      "name": "主机下壳",
+      "role": "custom",
+      "files": {
+        "step": "lower_shell.step",
+        "stl": "lower_shell.stl",
+        "glb": "lower_shell.glb"
+      },
+      "color": "#627876",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "bbox": {
+        "min": [
+          -22.0,
+          -37.0,
+          0.0
+        ],
+        "max": [
+          22.0,
+          37.0,
+          18.0
+        ]
+      },
+      "volume_mm3": 16438.743025139163,
+      "file_sha256": {
+        "step": "f251d736eadbe2f7239f592efa0eddc4ff667f55f712332eb0b8e4fca96fe221",
+        "stl": "3411920d0eea7f8cd21dd1af284f6624c7bb7a7c898bd27a67be18773a40e8cb",
+        "glb": "52aebf35e2a447307eeed316ff37adbb641e1bdb3312af40e308a91fd127202a"
+      }
+    },
+    {
+      "id": "lid",
+      "name": "螺钉上盖",
+      "role": "custom",
+      "files": {
+        "step": "lid.step",
+        "stl": "lid.stl",
+        "glb": "lid.glb"
+      },
+      "color": "#d5dbd1",
+      "explode": [
+        0,
+        0,
+        35
+      ],
+      "bbox": {
+        "min": [
+          -22.0,
+          -37.0,
+          18.0
+        ],
+        "max": [
+          22.0,
+          37.0,
+          20.5
+        ]
+      },
+      "volume_mm3": 7024.207972311254,
+      "file_sha256": {
+        "step": "461c6328d6b4861f08b9f6aa1cfdbbf07c879f9a3183d86dadbc2595b6713092",
+        "stl": "e9ef0d2b52268b983af1ac901bb715615d6d4d51a29467cfa5ee6bac76ba0fea",
+        "glb": "161709a77f334fcae3ff9462d67c9c2d3cae0731c2ce2c4eccaa05c20523eb31"
+      }
+    },
+    {
+      "id": "wall_bracket",
+      "name": "壁挂背板",
+      "role": "custom",
+      "files": {
+        "step": "wall_bracket.step",
+        "stl": "wall_bracket.stl",
+        "glb": "wall_bracket.glb"
+      },
+      "color": "#454c53",
+      "explode": [
+        0,
+        0,
+        -20
+      ],
+      "bbox": {
+        "min": [
+          -29.0,
+          -42.0,
+          -7.5
+        ],
+        "max": [
+          29.0,
+          42.0,
+          0.0
+        ]
+      },
+      "volume_mm3": 11397.8373475319,
+      "file_sha256": {
+        "step": "b88681e646ba7760909e0bb4ceab4f5f510925a79aa6232dd6bb640d6c22ebb0",
+        "stl": "c8f2ac09c864bf36629d8530ec5d811f692eb42fd9e3ba19340e23362e1e20fa",
+        "glb": "5361ed81358bdad9e7844918f6da2f23048caadc84b38d9cbe7a4175a00841c2"
+      }
+    },
+    {
+      "id": "probe_holder",
+      "name": "探头托架",
+      "role": "custom",
+      "files": {
+        "step": "probe_holder.step",
+        "stl": "probe_holder.stl",
+        "glb": "probe_holder.glb"
+      },
+      "color": "#dc8c4c",
+      "explode": [
+        20,
+        0,
+        0
+      ],
+      "bbox": {
+        "min": [
+          52.0,
+          -18.04747014490656,
+          0.0
+        ],
+        "max": [
+          78.0,
+          17.0,
+          15.801809973440708
+        ]
+      },
+      "volume_mm3": 3034.92708517731,
+      "file_sha256": {
+        "step": "e75dde71cf54c0f80a27dada6ae8a943521205ac14547fb6aa182be812bc61f8",
+        "stl": "7f8f9b30c55bb5ab267779d2c81683b287179f4840d9c128902f29b19af9d6ff",
+        "glb": "4952e8b6eae18f52395ec6567e1ca7c6ec7b50e88566b2006a07cc22e92a832a"
+      }
+    },
+    {
+      "id": "pico_w",
+      "name": "Pico W 简化包络",
+      "role": "reference",
+      "files": {
+        "glb": "pico_w.glb"
+      },
+      "color": "#277a56",
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "bbox": {
+        "min": [
+          -10.5,
+          -25.5,
+          5.7
+        ],
+        "max": [
+          10.5,
+          27.0,
+          12.5
+        ]
+      },
+      "volume_mm3": 4899.145576397669,
+      "file_sha256": {
+        "glb": "910af9498cd48f1ffb36664c3ef8c8b570de56617559033a23524e9fc653a04f"
+      }
+    },
+    {
+      "id": "water_sensor",
+      "name": "SEN0121 简化包络",
+      "role": "reference",
+      "files": {
+        "glb": "water_sensor.glb"
+      },
+      "color": "#bd963d",
+      "explode": [
+        20,
+        0,
+        18
+      ],
+      "bbox": {
+        "min": [
+          55.0,
+          -16.247470144906558,
+          3.0
+        ],
+        "max": [
+          75.0,
+          14.34442802201417,
+          15.106236328935616
+        ]
+      },
+      "volume_mm3": 3600.0,
+      "file_sha256": {
+        "glb": "7b07ead918e0a6ccecc17d9b84b615ea9faa711e9811df66bafbda7c5017fcac"
+      }
+    }
+  ],
+  "parameters": "parameters.json",
+  "validation": "validation.json",
+  "assembly": "assembly.step",
+  "interfaces": {
+    "pcb_holes": [
+      [
+        -5.7,
+        -23.5
+      ],
+      [
+        -5.7,
+        23.5
+      ],
+      [
+        5.7,
+        -23.5
+      ],
+      [
+        5.7,
+        23.5
+      ]
+    ],
+    "pcb_used_holes": [
+      [
+        -5.7,
+        23.5
+      ],
+      [
+        5.7,
+        23.5
+      ]
+    ],
+    "lid_holes": [
+      [
+        -17.5,
+        -29
+      ],
+      [
+        -17.5,
+        29
+      ],
+      [
+        17.5,
+        -29
+      ],
+      [
+        17.5,
+        29
+      ]
+    ],
+    "bracket_holes": [
+      [
+        -16,
+        -12
+      ],
+      [
+        -16,
+        12
+      ],
+      [
+        16,
+        -12
+      ],
+      [
+        16,
+        12
+      ]
+    ],
+    "wall_holes": [
+      [
+        -24,
+        -33
+      ],
+      [
+        -24,
+        33
+      ],
+      [
+        24,
+        -33
+      ],
+      [
+        24,
+        33
+      ]
+    ],
+    "pcb_bottom": 6.5,
+    "contact_descriptions": [
+      "shell rim / lid underside at Z=shell_height",
+      "shell underside / bracket post tops at Z=0",
+      "PCB underside / front posts and mid-edge pads",
+      "sensor underside / inclined edge rails"
+    ]
+  },
+  "limitations": [
+    "Simplified nominal component, socket, plug, cable, solder and sensing-region envelopes.",
+    "No physical fit/print, RF, fastening strength, alarm, waterproofing or certification test.",
+    "STEP OCP reimport is digital serialization checking; independent CAD application not yet verified.",
+    "GLB/STL are meshes; STEP and Python are the engineering source.",
+    "Thread bite is intentionally unmodeled; pilot and fastener dimensions require hardware calibration.",
+    "Sensor sensing depth and connector exposure require real trials."
+  ],
+  "assembly_sha256": "7613efdfdb0cb880e42258692d2086763d09e2f8622012fa963cc0829057a582",
+  "validation_sha256": "ac02c5f31591551f1b33724709a0ae4318046f968f3b3c7e4e5cf85464c98cdd"
+}

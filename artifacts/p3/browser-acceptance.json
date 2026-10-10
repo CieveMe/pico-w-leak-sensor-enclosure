@@ -1,0 +1,92 @@
+{
+  "phase": "P3_corrected",
+  "model_reported_by_user": "GPT-6-Luna / Medium",
+  "model_independently_verified": false,
+  "initial_review": "failed: explosion offset scaled by 72; hidden-parent probe remained pickable; dimension labels were partially hardcoded",
+  "python_tests": {
+    "command": ".venv/Scripts/python.exe -X utf8 -m pytest -q -p no:cacheprovider --basetemp scratch/pytest-p3-full",
+    "result": "20 passed",
+    "clean_result": "20 passed; scripts/prepare_viewer.py passed in scratch/p4-clean",
+    "variant_probe": {
+      "lid_hole_diameter_mm": 4.2,
+      "lid_screw_x_mm": 16,
+      "lid_screw_y_mm": 28,
+      "shell_width_mm": 46,
+      "generated_labels": [
+        "盖板 · 4 × Ø4.2 通孔",
+        "盖板孔中心 X ±16 / Y ±28",
+        "主机下壳 46 × 74"
+      ],
+      "circle_radius_svg_units": 5.88,
+      "stale_manifest_negative_control": "rejected"
+    }
+  },
+  "viewer_tests": {
+    "node_tests": "2 passed",
+    "production_build": "passed",
+    "bundle_bytes": 601331,
+    "bundle_gzip_bytes": 152926,
+    "advisory": "single bundle exceeds Vite 500 kB threshold",
+    "bundle_measurement": "Exact bytes of independent staged-tree build; gzip level 9, mtime=0."
+  },
+  "browser": {
+    "connection": "agent-browser --auto-connect, existing browser",
+    "page_errors": [],
+    "parts_loaded": 6,
+    "validation_counts": {
+      "passed": 176,
+      "failed": 0,
+      "unverified": 1
+    },
+    "unverified": [
+      "independent_cad_app.reopen"
+    ],
+    "explosion_lid_z_displacement_mm": {
+      "0_percent": 0,
+      "50_percent": 17.5,
+      "100_percent": 35,
+      "reset": 0
+    },
+    "probe_pick_ray": {
+      "origin": [
+        65,
+        0,
+        100
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "visible": "water_sensor",
+      "hidden_parent": "null",
+      "restored": "water_sensor"
+    },
+    "all_six_visible_after_reset": true,
+    "baseline_svg_browser_checks": {
+      "lid_diameter": true,
+      "lid_hole_centers": true,
+      "wall_hole_centers": true,
+      "shell_dimensions": true
+    },
+    "screenshots": {
+      "desktop": "artifacts/p3/desktop-final.png",
+      "mobile": "artifacts/p3/mobile-final.png",
+      "mobile_css_viewport": "390x844"
+    }
+  },
+  "drawing_revision": "sha256:51ee0d54319a88e871f1ba0fe63c3fc858b7ee4dca68e9fd8133f528b981c6de",
+  "sha256": {
+    "artifacts/p3/desktop-final.png": "de423fb12c218c8015f7ef7cb8ee53bc41c6b8c9689a6df6a77f8345433ba147",
+    "artifacts/p3/mobile-final.png": "c7a6e1c9ad789a182ad099933c975808bfb6f2ce7ec6bb0f220c1409796602c6",
+    "artifacts/drawings/pico-w-dimensions.svg": "9639198bda453feb3c2c4d1cf12c5b4d7ce9faa85a451e9912f243a9a2430d76",
+    "viewer/public/drawings/pico-w-dimensions.svg": "9639198bda453feb3c2c4d1cf12c5b4d7ce9faa85a451e9912f243a9a2430d76",
+    "viewer/src/main.js": "6e7598e84c598ab3245ab271ae9e5f1b3c70fc94afc438580c3fd0f73acbcada",
+    "viewer/src/scene-utils.js": "f06626c07cf25cd6682ff166b40dccdd0bfae24eb6e3a9010cceeca577f4ddd7",
+    "scripts/generate_dimensions.py": "896e3d9358ad197ae6be2e1b653b29adf5990261478fc646d5e73aabb853d73f",
+    "tests/test_dimensions.py": "6aaa4faf9ed71e101b6521c90f64a04463f0fe00d170aad6c7189aa44bdbe1b3",
+    "viewer/tests/scene-utils.test.js": "3452f45611bf764fabc886cbd0e898c049573c3a616b244372157b566067692c",
+    "cad/runtime.py": "00b5f2eed4dc9e995c2026b18c6b1ec4f6992f5d9f8a89477809169cf17b83fa"
+  },
+  "sha256_basis": "Exact Git index blobs; checkout line-ending conversion may change raw text bytes. Historical browser observations are unchanged."
+}

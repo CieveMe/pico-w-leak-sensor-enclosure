@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "manufacturer_dimensions": {
+    "pcb_width": {
+      "value": 21,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Figure 3 printed page 6",
+      "purpose": "pcb_width"
+    },
+    "pcb_length": {
+      "value": 51,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Figure 3 printed page 6",
+      "purpose": "pcb_length"
+    },
+    "pcb_thickness": {
+      "value": 1,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Figure 3 printed page 6",
+      "purpose": "pcb_thickness"
+    },
+    "pcb_hole_diameter": {
+      "value": 2.1,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Figure 3 printed page 6",
+      "purpose": "pcb_hole_diameter"
+    },
+    "pcb_hole_pitch_x": {
+      "value": 11.4,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Figure 3 printed page 6",
+      "purpose": "pcb_hole_pitch_x"
+    },
+    "pcb_hole_pitch_y": {
+      "value": 47,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Figure 3 printed page 6",
+      "purpose": "pcb_hole_pitch_y"
+    },
+    "antenna_cutout_width": {
+      "value": 14,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Section 2.2.1 printed page 10 (carrier-board cutout, not 3D RF guarantee)",
+      "purpose": "antenna_cutout_width"
+    },
+    "antenna_cutout_depth": {
+      "value": 9,
+      "unit": "mm",
+      "source": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "figure": "Section 2.2.1 printed page 10 (carrier-board cutout, not 3D RF guarantee)",
+      "purpose": "antenna_cutout_depth"
+    },
+    "sensor_length": {
+      "value": 30,
+      "unit": "mm",
+      "source": "https://wiki.dfrobot.com/sen0121",
+      "figure": "Specification (overall envelope, not PCB thickness)",
+      "purpose": "sensor_length"
+    },
+    "sensor_width": {
+      "value": 20,
+      "unit": "mm",
+      "source": "https://wiki.dfrobot.com/sen0121",
+      "figure": "Specification (overall envelope, not PCB thickness)",
+      "purpose": "sensor_width"
+    },
+    "sensor_height": {
+      "value": 6,
+      "unit": "mm",
+      "source": "https://wiki.dfrobot.com/sen0121",
+      "figure": "Specification (overall envelope, not PCB thickness)",
+      "purpose": "sensor_height"
+    }
+  },
+  "design_assumptions": {
+    "shell_width": {
+      "value": 44,
+      "unit": "mm",
+      "purpose": "shell_width",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "shell_length": {
+      "value": 74,
+      "unit": "mm",
+      "purpose": "shell_length",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "wall_thickness": {
+      "value": 2.5,
+      "unit": "mm",
+      "purpose": "wall_thickness",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "floor_thickness": {
+      "value": 2.5,
+      "unit": "mm",
+      "purpose": "floor_thickness",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "shell_height": {
+      "value": 18,
+      "unit": "mm",
+      "purpose": "shell_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "lid_thickness": {
+      "value": 2.5,
+      "unit": "mm",
+      "purpose": "lid_thickness",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "pcb_support_height": {
+      "value": 4,
+      "unit": "mm",
+      "purpose": "pcb_support_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "pcb_component_height": {
+      "value": 5,
+      "unit": "mm",
+      "purpose": "pcb_component_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "pcb_solder_height": {
+      "value": 0.8,
+      "unit": "mm",
+      "purpose": "pcb_solder_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "pcb_pilot_diameter": {
+      "value": 1.6,
+      "unit": "mm",
+      "purpose": "pcb_pilot_diameter",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "pcb_post_diameter": {
+      "value": 4,
+      "unit": "mm",
+      "purpose": "pcb_post_diameter",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "lid_pilot_diameter": {
+      "value": 2.5,
+      "unit": "mm",
+      "purpose": "lid_pilot_diameter",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "lid_hole_diameter": {
+      "value": 3.4,
+      "unit": "mm",
+      "purpose": "lid_hole_diameter",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "lid_boss_diameter": {
+      "value": 7,
+      "unit": "mm",
+      "purpose": "lid_boss_diameter",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "lid_screw_x": {
+      "value": 17.5,
+      "unit": "mm",
+      "purpose": "lid_screw_x",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "lid_screw_y": {
+      "value": 29,
+      "unit": "mm",
+      "purpose": "lid_screw_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_socket_width": {
+      "value": 8,
+      "unit": "mm",
+      "purpose": "usb_socket_width",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_socket_start_y": {
+      "value": 21.5,
+      "unit": "mm",
+      "purpose": "usb_socket_start_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_socket_end_y": {
+      "value": 27,
+      "unit": "mm",
+      "purpose": "usb_socket_end_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_socket_height": {
+      "value": 3.5,
+      "unit": "mm",
+      "purpose": "usb_socket_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_plug_width": {
+      "value": 14,
+      "unit": "mm",
+      "purpose": "usb_plug_width",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_plug_height": {
+      "value": 6,
+      "unit": "mm",
+      "purpose": "usb_plug_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_path_start_y": {
+      "value": 27.5,
+      "unit": "mm",
+      "purpose": "usb_path_start_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_path_end_y": {
+      "value": 52,
+      "unit": "mm",
+      "purpose": "usb_path_end_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_opening_width": {
+      "value": 16,
+      "unit": "mm",
+      "purpose": "usb_opening_width",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "usb_opening_height": {
+      "value": 10,
+      "unit": "mm",
+      "purpose": "usb_opening_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "cable_opening_width": {
+      "value": 8,
+      "unit": "mm",
+      "purpose": "cable_opening_width",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "cable_opening_height": {
+      "value": 7,
+      "unit": "mm",
+      "purpose": "cable_opening_height",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "antenna_window_width": {
+      "value": 20,
+      "unit": "mm",
+      "purpose": "antenna_window_width",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "antenna_window_end_y": {
+      "value": -16.5,
+      "unit": "mm",
+      "purpose": "antenna_window_end_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "bracket_width": {
+      "value": 58,
+      "unit": "mm",
+      "purpose": "bracket_width",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "bracket_length": {
+      "value": 84,
+      "unit": "mm",
+      "purpose": "bracket_length",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "bracket_thickness": {
+      "value": 2.5,
+      "unit": "mm",
+      "purpose": "bracket_thickness",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "bracket_top_z": {
+      "value": -5,
+      "unit": "mm",
+      "purpose": "bracket_top_z",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "bracket_joint_x": {
+      "value": 16,
+      "unit": "mm",
+      "purpose": "bracket_joint_x",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "bracket_joint_y": {
+      "value": 12,
+      "unit": "mm",
+      "purpose": "bracket_joint_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "bracket_pilot_diameter": {
+      "value": 2.5,
+      "unit": "mm",
+      "purpose": "bracket_pilot_diameter",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "wall_hole_diameter": {
+      "value": 4.5,
+      "unit": "mm",
+      "purpose": "wall_hole_diameter",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "wall_screw_x": {
+      "value": 24,
+      "unit": "mm",
+      "purpose": "wall_screw_x",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "wall_screw_y": {
+      "value": 33,
+      "unit": "mm",
+      "purpose": "wall_screw_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "sensor_center_x": {
+      "value": 65,
+      "unit": "mm",
+      "purpose": "sensor_center_x",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "sensor_front_y": {
+      "value": -15,
+      "unit": "mm",
+      "purpose": "sensor_front_y",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "sensor_front_z": {
+      "value": 3,
+      "unit": "mm",
+      "purpose": "sensor_front_z",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "sensor_tilt_degrees": {
+      "value": 12,
+      "unit": "deg",
+      "purpose": "sensor_tilt_degrees",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "sensor_side_clearance": {
+      "value": 0.6,
+      "unit": "mm",
+      "purpose": "sensor_side_clearance",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    },
+    "minimum_air_clearance": {
+      "value": 0.5,
+      "unit": "mm",
+      "purpose": "minimum_air_clearance",
+      "basis": "Project assumption; see docs/sources-and-assumptions.md. Physical calibration required."
+    }
+  },
+  "validation_tolerances": {
+    "step_bbox": {
+      "value": 0.01,
+      "unit": "mm",
+      "purpose": "STEP serialization"
+    },
+    "step_relative_volume": {
+      "value": 1e-05,
+      "unit": "ratio",
+      "purpose": "STEP serialization"
+    },
+    "intersection_volume": {
+      "value": 1e-06,
+      "unit": "mm^3",
+      "purpose": "Numerical zero-volume contact"
+    },
+    "glb_bbox": {
+      "value": 0.06,
+      "unit": "mm",
+      "purpose": "World mesh bbox including 0.05 mm tessellation"
+    },
+    "mesh_deflection": {
+      "value": 0.05,
+      "unit": "mm",
+      "purpose": "Tessellation"
+    },
+    "mesh_angular_deflection": {
+      "value": 0.1,
+      "unit": "rad",
+      "purpose": "Tessellation"
+    }
+  }
+}

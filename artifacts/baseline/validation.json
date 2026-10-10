@@ -1,0 +1,2499 @@
+{
+  "schema_version": 1,
+  "variant": "baseline",
+  "source_revision": "sha256:51ee0d54319a88e871f1ba0fe63c3fc858b7ee4dca68e9fd8133f528b981c6de",
+  "units": "mm",
+  "cad_up_axis": "Z",
+  "digital_checks_pass": true,
+  "status": "digital_passed_with_unverified_items",
+  "check_count": 177,
+  "failed_count": 0,
+  "unverified_count": 1,
+  "checks": [
+    {
+      "name": "solid.valid",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "solid.connected_count",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "solid.positive_volume",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 16438.743025139163,
+      "threshold": {
+        "min": 1e-08
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "solid.valid",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "solid.connected_count",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "solid.positive_volume",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 7024.207972311254,
+      "threshold": {
+        "min": 1e-08
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "solid.valid",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "solid.connected_count",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "solid.positive_volume",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 11397.8373475319,
+      "threshold": {
+        "min": 1e-08
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "solid.valid",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "solid.connected_count",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "solid.positive_volume",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 3034.92708517731,
+      "threshold": {
+        "min": 1e-08
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "custom_pair.overlap",
+      "objects": [
+        "lower_shell",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "All custom pairs; zero-volume contact descriptions are in manifest."
+    },
+    {
+      "name": "custom_pair.overlap",
+      "objects": [
+        "lower_shell",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "All custom pairs; zero-volume contact descriptions are in manifest."
+    },
+    {
+      "name": "custom_pair.overlap",
+      "objects": [
+        "lower_shell",
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "All custom pairs; zero-volume contact descriptions are in manifest."
+    },
+    {
+      "name": "custom_pair.overlap",
+      "objects": [
+        "lid",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "All custom pairs; zero-volume contact descriptions are in manifest."
+    },
+    {
+      "name": "custom_pair.overlap",
+      "objects": [
+        "lid",
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "All custom pairs; zero-volume contact descriptions are in manifest."
+    },
+    {
+      "name": "custom_pair.overlap",
+      "objects": [
+        "wall_bracket",
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "All custom pairs; zero-volume contact descriptions are in manifest."
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "pcb",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "pcb",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "pcb",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "components",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "components",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1.0,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "components",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "components",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 5.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "components",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "components",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 8.276472678623424,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "solder",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "solder",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "solder",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "solder",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 11.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "solder",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "solder",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 7.262231062146123,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "usb_socket",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "usb_socket",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1.0,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "usb_socket",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "usb_socket",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 7.0,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "usb_socket",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "usb_socket",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 12.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "usb_insertion",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "usb_insertion",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1.0,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "usb_insertion",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "usb_insertion",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 5.0,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "usb_insertion",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "usb_insertion",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 12.0,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "cable_route",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "cable_route",
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1.118033988749895,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "cable_route",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "cable_route",
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 7.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.overlap",
+      "objects": [
+        "cable_route",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "host_keepout.minimum_clearance",
+      "objects": [
+        "cable_route",
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 7.566372975210778,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "antenna.open_window",
+      "objects": [
+        "lower_shell",
+        "antenna"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Window boundary contact allowed; geometry only, not RF effectiveness."
+    },
+    {
+      "name": "antenna.open_window",
+      "objects": [
+        "lid",
+        "antenna"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Window boundary contact allowed; geometry only, not RF effectiveness."
+    },
+    {
+      "name": "antenna.open_window",
+      "objects": [
+        "wall_bracket",
+        "antenna"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Window boundary contact allowed; geometry only, not RF effectiveness."
+    },
+    {
+      "name": "antenna.core_to_structure",
+      "objects": [
+        "lower_shell",
+        "assumed_antenna_core"
+      ],
+      "status": "passed",
+      "measured": 0.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": "Project-selected 3D check region; source 14x9 carrier cutout is not 3D certification."
+    },
+    {
+      "name": "antenna.core_to_structure",
+      "objects": [
+        "lid",
+        "assumed_antenna_core"
+      ],
+      "status": "passed",
+      "measured": 0.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": "Project-selected 3D check region; source 14x9 carrier cutout is not 3D certification."
+    },
+    {
+      "name": "antenna.core_to_structure",
+      "objects": [
+        "wall_bracket",
+        "assumed_antenna_core"
+      ],
+      "status": "passed",
+      "measured": 0.5,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": "Project-selected 3D check region; source 14x9 carrier cutout is not 3D certification."
+    },
+    {
+      "name": "external_sensor.overlap",
+      "objects": [
+        "probe_holder",
+        "sensor_body"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Continuous vertical sweep for removal; underside contact allowed."
+    },
+    {
+      "name": "external_sensor.overlap",
+      "objects": [
+        "probe_holder",
+        "sensor_active"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Continuous vertical sweep for removal; underside contact allowed."
+    },
+    {
+      "name": "external_sensor.overlap",
+      "objects": [
+        "probe_holder",
+        "sensor_connector"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Continuous vertical sweep for removal; underside contact allowed."
+    },
+    {
+      "name": "external_sensor.overlap",
+      "objects": [
+        "probe_holder",
+        "sensor_removal"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Continuous vertical sweep for removal; underside contact allowed."
+    },
+    {
+      "name": "sensor.removal_contains_lifted_body",
+      "objects": [
+        "sensor_removal",
+        12.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Full lifted envelope must be contained, including the inclined rear face."
+    },
+    {
+      "name": "sensor.removal_contains_lifted_body",
+      "objects": [
+        "sensor_removal",
+        25
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Full lifted envelope must be contained, including the inclined rear face."
+    },
+    {
+      "name": "sensor.downslope_stop",
+      "objects": [
+        "probe_holder",
+        "sensor_downslope"
+      ],
+      "status": "passed",
+      "measured": 20.522441268364602,
+      "threshold": {
+        "min": 0.01
+      },
+      "unit": "mm^3",
+      "detail": "A 3 mm downhill displacement must hit an edge stop; not a strength test."
+    },
+    {
+      "name": "sensor.connector_elevation",
+      "objects": [
+        "sensor_connector",
+        "front_pivot"
+      ],
+      "status": "passed",
+      "measured": 4.574057197990706,
+      "threshold": {
+        "min": 2
+      },
+      "unit": "mm",
+      "detail": "Assumed connector region; no waterproof or detection-depth guarantee."
+    },
+    {
+      "name": "sensor.side_guide_clearance",
+      "objects": [
+        "water_sensor",
+        "sensor_left_guide"
+      ],
+      "status": "passed",
+      "measured": 0.6000000000000014,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "sensor.side_guide_clearance",
+      "objects": [
+        "water_sensor",
+        "sensor_right_guide"
+      ],
+      "status": "passed",
+      "measured": 0.5999999999999943,
+      "threshold": {
+        "min": 0.5
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.manufacturer_hole_void",
+      "objects": [
+        "pcb",
+        -5.7,
+        -23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.hole_surrounding_material",
+      "objects": [
+        "pcb",
+        -5.7,
+        -23.5
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.manufacturer_hole_void",
+      "objects": [
+        "pcb",
+        -5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.hole_surrounding_material",
+      "objects": [
+        "pcb",
+        -5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.manufacturer_hole_void",
+      "objects": [
+        "pcb",
+        5.7,
+        -23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.hole_surrounding_material",
+      "objects": [
+        "pcb",
+        5.7,
+        -23.5
+      ],
+      "status": "passed",
+      "measured": 5.329070518200751e-15,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.manufacturer_hole_void",
+      "objects": [
+        "pcb",
+        5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.hole_surrounding_material",
+      "objects": [
+        "pcb",
+        5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "pcb",
+        -4.300000000000001,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "lower_shell",
+        -4.300000000000001,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "pcb",
+        7.1,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "lower_shell",
+        7.1,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "pcb",
+        -9.5,
+        0
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "lower_shell",
+        -9.5,
+        0
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "pcb",
+        9.5,
+        0
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "pcb.actual_support_contact",
+      "objects": [
+        "lower_shell",
+        9.5,
+        0
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.cover_install",
+      "objects": [
+        "cover_install",
+        -17.5,
+        -29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.cover_install",
+      "objects": [
+        "cover_install",
+        -17.5,
+        29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.cover_install",
+      "objects": [
+        "cover_install",
+        17.5,
+        -29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.cover_install",
+      "objects": [
+        "cover_install",
+        17.5,
+        29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.empty_shell_to_bracket",
+      "objects": [
+        "empty_shell_to_bracket",
+        -16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.empty_shell_to_bracket",
+      "objects": [
+        "empty_shell_to_bracket",
+        -16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.empty_shell_to_bracket",
+      "objects": [
+        "empty_shell_to_bracket",
+        16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.empty_shell_to_bracket",
+      "objects": [
+        "empty_shell_to_bracket",
+        16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.wall_bracket_first",
+      "objects": [
+        "wall_bracket_first",
+        -24,
+        -33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.wall_bracket_first",
+      "objects": [
+        "wall_bracket_first",
+        -24,
+        33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.wall_bracket_first",
+      "objects": [
+        "wall_bracket_first",
+        24,
+        -33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.wall_bracket_first",
+      "objects": [
+        "wall_bracket_first",
+        24,
+        33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "tool_access.pcb_before_cover",
+      "objects": [
+        "PCB front screw",
+        -5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.pcb_head_socket",
+      "objects": [
+        "compact M2 head OD=3",
+        "usb_socket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.pcb_pilot_core",
+      "objects": [
+        "lower_shell",
+        "M2x6 pilot",
+        -5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Pilot core only; screw thread bite intentionally not modeled."
+    },
+    {
+      "name": "tool_access.pcb_before_cover",
+      "objects": [
+        "PCB front screw",
+        5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.pcb_head_socket",
+      "objects": [
+        "compact M2 head OD=3",
+        "usb_socket"
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.pcb_pilot_core",
+      "objects": [
+        "lower_shell",
+        "M2x6 pilot",
+        5.7,
+        23.5
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": "Pilot core only; screw thread bite intentionally not modeled."
+    },
+    {
+      "name": "fastener.cover_clearance_bore",
+      "objects": [
+        "lid",
+        -17.5,
+        -29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.cover_pilot_core",
+      "objects": [
+        "lower_shell",
+        -17.5,
+        -29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.cover_clearance_bore",
+      "objects": [
+        "lid",
+        -17.5,
+        29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.cover_pilot_core",
+      "objects": [
+        "lower_shell",
+        -17.5,
+        29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.cover_clearance_bore",
+      "objects": [
+        "lid",
+        17.5,
+        -29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.cover_pilot_core",
+      "objects": [
+        "lower_shell",
+        17.5,
+        -29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.cover_clearance_bore",
+      "objects": [
+        "lid",
+        17.5,
+        29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.cover_pilot_core",
+      "objects": [
+        "lower_shell",
+        17.5,
+        29
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_clearance_bore",
+      "objects": [
+        "lower_shell",
+        -16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.bracket_pilot_core",
+      "objects": [
+        "wall_bracket",
+        -16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_head_pcb",
+      "objects": [
+        "M3 host head",
+        -16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_clearance_bore",
+      "objects": [
+        "lower_shell",
+        -16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.bracket_pilot_core",
+      "objects": [
+        "wall_bracket",
+        -16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_head_pcb",
+      "objects": [
+        "M3 host head",
+        -16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_clearance_bore",
+      "objects": [
+        "lower_shell",
+        16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.bracket_pilot_core",
+      "objects": [
+        "wall_bracket",
+        16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_head_pcb",
+      "objects": [
+        "M3 host head",
+        16,
+        -12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_clearance_bore",
+      "objects": [
+        "lower_shell",
+        16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.bracket_pilot_core",
+      "objects": [
+        "wall_bracket",
+        16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.host_head_pcb",
+      "objects": [
+        "M3 host head",
+        16,
+        12
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.wall_head_host",
+      "objects": [
+        "wall head",
+        "lower_shell",
+        -24,
+        -33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.wall_head_host",
+      "objects": [
+        "wall head",
+        "lower_shell",
+        -24,
+        33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.wall_head_host",
+      "objects": [
+        "wall head",
+        "lower_shell",
+        24,
+        -33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "fastener.wall_head_host",
+      "objects": [
+        "wall head",
+        "lower_shell",
+        24,
+        33
+      ],
+      "status": "passed",
+      "measured": 0,
+      "threshold": {
+        "max": 1e-06
+      },
+      "unit": "mm^3",
+      "detail": ""
+    },
+    {
+      "name": "dimension.inner_wall_x",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 19.5,
+      "threshold": {
+        "expected": 19.5,
+        "absolute_tolerance": 1e-06
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "step.valid",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "step.solid_count",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "step.bbox_max_error",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "step.relative_volume_error",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1.3521745839896535e-13,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "stl.bbox_max_error",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.1
+      },
+      "unit": "mm",
+      "detail": "Binary STL vertices in assembled CAD mm; not an engineering solid."
+    },
+    {
+      "name": "glb.world_bbox_max_error",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 7.748603785273644e-07,
+      "threshold": {
+        "max": 0.06
+      },
+      "unit": "mm",
+      "detail": "Scene-node world vertices restored by scale 1000/Rx(+90), compared to CAD source."
+    },
+    {
+      "name": "step.valid",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "step.solid_count",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "step.bbox_max_error",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "step.relative_volume_error",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 2.589600721841005e-16,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "stl.bbox_max_error",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.1
+      },
+      "unit": "mm",
+      "detail": "Binary STL vertices in assembled CAD mm; not an engineering solid."
+    },
+    {
+      "name": "glb.world_bbox_max_error",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 7.748603962909328e-07,
+      "threshold": {
+        "max": 0.06
+      },
+      "unit": "mm",
+      "detail": "Scene-node world vertices restored by scale 1000/Rx(+90), compared to CAD source."
+    },
+    {
+      "name": "step.valid",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "step.solid_count",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "step.bbox_max_error",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "step.relative_volume_error",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 1.5959074937490157e-15,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "stl.bbox_max_error",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.1
+      },
+      "unit": "mm",
+      "detail": "Binary STL vertices in assembled CAD mm; not an engineering solid."
+    },
+    {
+      "name": "glb.world_bbox_max_error",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 8.344650268554688e-07,
+      "threshold": {
+        "max": 0.06
+      },
+      "unit": "mm",
+      "detail": "Scene-node world vertices restored by scale 1000/Rx(+90), compared to CAD source."
+    },
+    {
+      "name": "step.valid",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "step.solid_count",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 1,
+      "threshold": {
+        "expected": 1
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "step.bbox_max_error",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 6.558309451065725e-12,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "step.relative_volume_error",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 2.8334362453919184e-13,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "stl.bbox_max_error",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 2.9114669430896356e-07,
+      "threshold": {
+        "max": 0.1
+      },
+      "unit": "mm",
+      "detail": "Binary STL vertices in assembled CAD mm; not an engineering solid."
+    },
+    {
+      "name": "glb.world_bbox_max_error",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 1.6093254089355469e-06,
+      "threshold": {
+        "max": 0.06
+      },
+      "unit": "mm",
+      "detail": "Scene-node world vertices restored by scale 1000/Rx(+90), compared to CAD source."
+    },
+    {
+      "name": "glb.world_bbox_max_error",
+      "objects": [
+        "pico_w"
+      ],
+      "status": "passed",
+      "measured": 4.768371653085524e-07,
+      "threshold": {
+        "max": 0.06
+      },
+      "unit": "mm",
+      "detail": "Scene-node world vertices restored by scale 1000/Rx(+90), compared to CAD source."
+    },
+    {
+      "name": "glb.world_bbox_max_error",
+      "objects": [
+        "water_sensor"
+      ],
+      "status": "passed",
+      "measured": 6.55899084378575e-07,
+      "threshold": {
+        "max": 0.06
+      },
+      "unit": "mm",
+      "detail": "Scene-node world vertices restored by scale 1000/Rx(+90), compared to CAD source."
+    },
+    {
+      "name": "assembly.source_part_count",
+      "objects": [
+        "assembly"
+      ],
+      "status": "passed",
+      "measured": 6,
+      "threshold": {
+        "expected": 6
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "assembly.reimport_solid_count",
+      "objects": [
+        "assembly"
+      ],
+      "status": "passed",
+      "measured": 9,
+      "threshold": {
+        "expected": 9
+      },
+      "unit": "count",
+      "detail": ""
+    },
+    {
+      "name": "assembly.reimport_component_count",
+      "objects": [
+        "assembly"
+      ],
+      "status": "passed",
+      "measured": 6,
+      "threshold": {
+        "expected": 6
+      },
+      "unit": "count",
+      "detail": "Imported labeled top-level components; two are simplified references."
+    },
+    {
+      "name": "assembly.bbox_max_error",
+      "objects": [
+        "assembly"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "assembly.relative_volume_error",
+      "objects": [
+        "assembly"
+      ],
+      "status": "passed",
+      "measured": 6.680821703947035e-14,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_label",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": "lower_shell",
+      "threshold": {
+        "expected": "lower_shell"
+      },
+      "unit": "label",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_bbox",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_volume",
+      "objects": [
+        "lower_shell"
+      ],
+      "status": "passed",
+      "measured": 1.3521745839896535e-13,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_label",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": "lid",
+      "threshold": {
+        "expected": "lid"
+      },
+      "unit": "label",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_bbox",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_volume",
+      "objects": [
+        "lid"
+      ],
+      "status": "passed",
+      "measured": 2.589600721841005e-16,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_label",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": "wall_bracket",
+      "threshold": {
+        "expected": "wall_bracket"
+      },
+      "unit": "label",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_bbox",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_volume",
+      "objects": [
+        "wall_bracket"
+      ],
+      "status": "passed",
+      "measured": 1.5959074937490157e-15,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_label",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": "probe_holder",
+      "threshold": {
+        "expected": "probe_holder"
+      },
+      "unit": "label",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_bbox",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 6.558309451065725e-12,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_volume",
+      "objects": [
+        "probe_holder"
+      ],
+      "status": "passed",
+      "measured": 2.8334362453919184e-13,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_label",
+      "objects": [
+        "pico_w"
+      ],
+      "status": "passed",
+      "measured": "pico_w",
+      "threshold": {
+        "expected": "pico_w"
+      },
+      "unit": "label",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_bbox",
+      "objects": [
+        "pico_w"
+      ],
+      "status": "passed",
+      "measured": 0.0,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_volume",
+      "objects": [
+        "pico_w"
+      ],
+      "status": "passed",
+      "measured": 1.8564353469195697e-16,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_label",
+      "objects": [
+        "water_sensor"
+      ],
+      "status": "passed",
+      "measured": "water_sensor",
+      "threshold": {
+        "expected": "water_sensor"
+      },
+      "unit": "label",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_bbox",
+      "objects": [
+        "water_sensor"
+      ],
+      "status": "passed",
+      "measured": 5.4782844927103724e-12,
+      "threshold": {
+        "max": 0.01
+      },
+      "unit": "mm",
+      "detail": ""
+    },
+    {
+      "name": "assembly.component_volume",
+      "objects": [
+        "water_sensor"
+      ],
+      "status": "passed",
+      "measured": 1.2631870857957337e-16,
+      "threshold": {
+        "max": 1e-05
+      },
+      "unit": "ratio",
+      "detail": ""
+    },
+    {
+      "name": "assembly.step_mm_unit",
+      "objects": [
+        "assembly"
+      ],
+      "status": "passed",
+      "measured": true,
+      "threshold": {
+        "expected": true
+      },
+      "unit": "boolean",
+      "detail": ""
+    },
+    {
+      "name": "independent_cad_app.reopen",
+      "objects": [
+        "assembly.step"
+      ],
+      "status": "unverified",
+      "measured": null,
+      "threshold": {
+        "requires": "independent CAD app: 6 components, mm and key dimensions"
+      },
+      "unit": "review",
+      "detail": "OCP reimport above is separate. No FreeCAD/SolidWorks application result claimed."
+    }
+  ],
+  "limitations": [
+    "Simplified nominal component, socket, plug, cable, solder and sensing-region envelopes.",
+    "No physical fit/print, RF, fastening strength, alarm, waterproofing or certification test.",
+    "STEP OCP reimport is digital serialization checking; independent CAD application not yet verified.",
+    "GLB/STL are meshes; STEP and Python are the engineering source.",
+    "Thread bite is intentionally unmodeled; pilot and fastener dimensions require hardware calibration.",
+    "Sensor sensing depth and connector exposure require real trials."
+  ]
+}
